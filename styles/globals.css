@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@-webkit-keyframes pulseText {
+  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+}
+@-moz-keyframes pulseText {
+  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+}
+@-o-keyframes pulseText {
+  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+}
+@keyframes pulseText {
+  0% {text-shadow: 1px 1px 8px rgba(0, 255, 0, 0.7);}
+  100% {text-shadow: 1px 1px 22px rgba(0, 255, 0, 1);}
+}
+
+.pulseText {
+  -webkit-animation-name: pulseText;
+  -moz-animation-name: pulseText;
+  -o-animation-name: pulseText;
+  animation-name: pulseText;
+  -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  -o-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  border: 0px;
+}
+
+.team_shadow {
+  box-shadow: 5px 5px 0px darkgray;
+}
