@@ -6,7 +6,7 @@ export interface FAQType {
     Q: string,
     A: Array<string>,
 }
-const FAQ = ({show, funcHide}) => {
+const FAQ = (props: { show: boolean; funcHide: () => void; }) => {
   const faqData: Array<FAQType> = [{
         Q: "What is the avatar maker?",
         A: ["The Avatar Maker is an NFT tool that allows users to create their own avatar from multiple traits. Like an avatar maker in a video game."]
@@ -110,11 +110,11 @@ const FAQ = ({show, funcHide}) => {
       <SlidingPane
         className="some-custom-class"
         overlayClassName="some-custom-overlay-class"
-        isOpen={show}
+        isOpen={props.show}
         width="50%"
         onRequestClose={() => {
           // triggered on "<" on left top click or on outside click
-          funcHide();
+          props.funcHide();
         }}
       >
         <div>
