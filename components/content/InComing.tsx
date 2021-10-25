@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import p32Image from "./../../pages/assets/images/32.png";
-import p51Image from "./../../pages/assets/images/51.png";
-import p56Image from "./../../pages/assets/images/56.png";
-import p52Image from "./../../pages/assets/images/52.png";
-import p53Image from "./../../pages/assets/images/53.png";
-import p54Image from "./../../pages/assets/images/54.png";
-import p57Image from "./../../pages/assets/images/57.jpg";
-import pABImage from "./../../pages/assets/images/AB.png";
+import p32Image from "../assets/images/32.png";
+import p51Image from "../assets/images/51.png";
+import p56Image from "../assets/images/56.png";
+import p52Image from "../assets/images/52.png";
+import p53Image from "../assets/images/53.png";
+import p54Image from "../assets/images/54.png";
+import p57Image from "../assets/images/57.jpg";
+import pABImage from "../assets/images/AB.png";
 
 const InComing = () => {
     return (

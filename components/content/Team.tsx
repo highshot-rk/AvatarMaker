@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import p61Image from "./../../pages/assets/images/61.png";
-import p62Image from "./../../pages/assets/images/62.png";
-import p63Image from "./../../pages/assets/images/63.jpg";
-import p64Image from "./../../pages/assets/images/64.png";
-import p65Image from "./../../pages/assets/images/65.png";
-import p66Image from "./../../pages/assets/images/66.png";
-import p67Image from "./../../pages/assets/images/67.png";
-import p68Image from "./../../pages/assets/images/68.png";
-import p69Image from "./../../pages/assets/images/69.png";
+import p61Image from "../assets/images/61.png";
+import p62Image from "../assets/images/62.png";
+import p63Image from "../assets/images/63.jpg";
+import p64Image from "../assets/images/64.png";
+import p65Image from "../assets/images/65.png";
+import p66Image from "../assets/images/66.png";
+import p67Image from "../assets/images/67.png";
+import p68Image from "../assets/images/68.png";
+import p69Image from "../assets/images/69.png";
 
 const Team = () => {
     return (

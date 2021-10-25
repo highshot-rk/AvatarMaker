@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import p7 from "./../../../pages/assets/images/p-7.png";
-import p12 from "./../../../pages/assets/images/12.png";
-import p9 from "./../../../pages/assets/images/p-9.png";
+import p7 from "../../assets/images/p-7.png";
+import p12 from "../../assets/images/12.png";
+import p9 from "../../assets/images/p-9.png";
 const TheValue = () => {
   return (
     <div className='pt-10'>
