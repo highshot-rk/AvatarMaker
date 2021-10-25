@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import { animateScroll as scroll, scroller } from 'react-scroll'
-import FAQ from "../content/FAQ";
+import FAQ from "./../content/FAQ";
 
 export default function Menu() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);

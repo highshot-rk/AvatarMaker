@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import bg7Image from "../../pages/assets/images/7bg.png";
-import p72Image from "../../pages/assets/images/72.png";
-import p73Image from "../../pages/assets/images/73.png";
+import bg7Image from "./../../pages/assets/images/7bg.png";
+import p72Image from "./../../pages/assets/images/72.png";
+import p73Image from "./../../pages/assets/images/73.png";
 
 const Support = () => {
     return (

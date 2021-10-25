@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import p1 from "../../../pages/assets/images/p-1.png";
-import p2 from "../../../pages/assets/images/p-2.png";
+import p1 from "./../../../pages/assets/images/p-1.png";
+import p2 from "./../../../pages/assets/images/p-2.png";
 const HowItWorks = () => {
     return (
         <div className='flex'>

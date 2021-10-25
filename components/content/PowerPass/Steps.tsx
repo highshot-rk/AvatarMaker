@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import p32 from "../../../pages/assets/images/32.png";
-import p4 from "../../../pages/assets/images/p-4.png";
-import p5 from "../../../pages/assets/images/p-5.png";
-import p6 from "../../../pages/assets/images/p-6.png";
-import p37 from "../../../pages/assets/images/37.jpeg";
-import p38 from "../../../pages/assets/images/38.png";
-import p39 from "../../../pages/assets/images/39.jpeg";
+import p32 from "./../../../pages/assets/images/32.png";
+import p4 from "./../../../pages/assets/images/p-4.png";
+import p5 from "./../../../pages/assets/images/p-5.png";
+import p6 from "./../../../pages/assets/images/p-6.png";
+import p37 from "./../../../pages/assets/images/37.jpeg";
+import p38 from "./../../../pages/assets/images/38.png";
+import p39 from "./../../../pages/assets/images/39.jpeg";
 const Steps = () => {
     return (
         <div>

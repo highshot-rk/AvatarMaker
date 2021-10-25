@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bg4Image from "../../pages/assets/images/4bg.jpeg";
+import bg4Image from "./../../pages/assets/images/4bg.jpeg";
 
 const HowItWorks = () => {
     return (
